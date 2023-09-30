@@ -4,7 +4,7 @@ import Logo from '../assets/svgs/Logo'
 const Footer = () => {
   const location = useLocation()
   const path = location.pathname
-  if (path !== '/auth') {
+  if (path !== '/auth' && !path.includes('file')) {
     return (
       <footer className='bg-primary font-sora max-w-[1440px] mx-auto'>
         <div className='lg:max-w-[80%] max-w-[90%] mx-auto  text-white flex justify-between flex-col lg:flex-row py-24 gap-10 items-start'>

@@ -5,7 +5,8 @@ const Header = () => {
   const location = useLocation()
   const path = location.pathname
 
-  if (path !== '/auth') {
+
+  if (path !== '/auth' && !path.includes('/file')) {
     return (
       <nav className='lg:block max-w-[1440px] mx-auto text-primary font-sora'>
         <div className='py-6 flex justify-between items-center lg:max-w-[80%] max-w-[90%] mx-auto'>
@@ -28,6 +29,7 @@ const Header = () => {
       </nav>
     )
   }
+  return null
 }
 
 export default Header

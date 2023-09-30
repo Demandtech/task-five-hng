@@ -1,8 +1,9 @@
-const EditIcon = () => {
+import PropTypes from 'prop-types'
+const EditIcon = ({ size = 32, width = '33px', height = '32px' }) => {
   return (
     <svg
-      width='33'
-      height='32'
+      width={width || `${size}px`}
+      height={height || `${size}px`}
       viewBox='0 0 33 32'
       fill='none'
       xmlns='http://www.w3.org/2000/svg'
@@ -39,6 +40,12 @@ const EditIcon = () => {
       </g>
     </svg>
   )
+}
+
+EditIcon.propTypes = {
+  width: PropTypes.string,
+  height: PropTypes.string,
+  size: PropTypes.number,
 }
 
 export default EditIcon

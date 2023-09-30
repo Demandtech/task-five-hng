@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 export const Logo = ({ color }) => {
   if (color === 'black') {
     return (
@@ -64,6 +65,10 @@ export const Logo = ({ color }) => {
       </svg>
     )
   }
+}
+
+Logo.propTypes = {
+  color: PropTypes.string,
 }
 
 export default Logo

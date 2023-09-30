@@ -7,7 +7,9 @@ export default {
       primary: '#120B48',
       white: '#fff',
       black: '#000000',
+      dark: '#141414',
       'light-gray': '#727272',
+      'light-border': '#CFCFCF',
     },
     fontFamily: {
       'work-sans': ['Work Sans', 'sans-serif'],

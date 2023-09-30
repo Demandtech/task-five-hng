@@ -20,7 +20,9 @@ const FilePage = () => {
           </button>
           <p className='font-bold text-[#7e7e7e]'>
             Don’t have an account?{' '}
-            <Link className='text-primary underline'>Create account </Link>
+            <Link to='/auth' className='text-primary underline'>
+              Create account{' '}
+            </Link>
           </p>
         </div>
       </div>
