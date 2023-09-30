@@ -9,7 +9,7 @@ const FilePage = () => {
       <div className=' w-[90%] lg:w-[80%] mx-auto py-10'>
         <VideoReady />
       </div>
-      <div className='w-full bg-[#e7e7ed] bg-opacity-20 py-10  mb-10'>
+      <div className='w-full bg-[#e7e7ed] bg-opacity-20 py-10 mb-10'>
         <div className='max-w-[90%] lg:max-w-[500px] mx-auto text-center flex flex-col items-center gap-8'>
           <h5 className='text-[#141414] font-bold font-sora lg:text-xl'>
             To ensure the availability and privacy of your video, we recommend

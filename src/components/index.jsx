@@ -1,3 +1,6 @@
 export { default as Header } from './Header'
 export { default as Footer } from './Footer'
 export { default as VideoReady } from './files/VideoReady'
+export { default as Hero } from './Home/Hero'
+export { default as Feature } from './Home/Features'
+export { default as HowItWorks } from './Home/HowItWorks'

@@ -1,4 +1,3 @@
-import { NavLink } from 'react-router-dom'
 import Logo from '../assets/svgs/Logo'
 
 const Header = () => {
@@ -11,10 +10,10 @@ const Header = () => {
         </div>
         <ul className='hidden lg:flex gap-10 text-black'>
           <li>
-            <NavLink to={'howitwork'}>Features</NavLink>
+            <a href='#features'>Features</a>
           </li>
           <li>
-            <NavLink to={'howitwork'}>How it works </NavLink>
+            <a href='#howitworks'>How it works </a>
           </li>
         </ul>
         <div>

@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { PlayIcon, SettingIcon, VolumeIcon } from '../../assets/svgs'
-import imgSrc from '../../assets/muteicon.png'
-import srcImg from '../../assets/pauseicon.png'
+import imgSrc from '../../assets/images/muteicon.png'
+import srcImg from '../../assets/images/pauseicon.png'
 
 const VideoInterface = () => {
   const videoRef = useRef(null)

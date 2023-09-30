@@ -3,7 +3,7 @@ import data from '../../transcript'
 data
 const Transcript = () => {
   return (
-    <div className='font-sora mt-20'>
+    <div className='font-sora mt-10 lg:mt-20'>
       <p className='font-semibold leading-tight lg:text-xl'> Transcript</p>
       <select
         className='border w-[150px] px-2 mt-3 mb-5 border-[#cfcfcf] rounded-md py-1 focus:border-dashed focus:outline-none text-[#CFCFCF]'
